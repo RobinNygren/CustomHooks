@@ -1,0 +1,41 @@
+.counter {
+  display: flex;
+  place-items: center;
+  place-content: center;
+  flex-direction: column;
+  min-width: 40rem;
+
+  body {
+    margin: 0rem;
+    min-width: 40rem;
+    min-height: 100vh;
+  }
+
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+
+  button {
+    margin: 1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    width: 10rem;
+  }
+
+  p {
+    font-size: 1.6em;
+    line-height: 1.1;
+  }
+
+  label {
+    font-size: 1.6em;
+    line-height: 1.1;
+
+    input {
+      margin: 0 0.5rem;
+      font-size: 1rem;
+      line-height: 1rem;
+    }
+  }
+}
